@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      
+      <link rel="stylesheet" href="./index.css">
+      
+      <!-- <script src="./loadIndex.js"></script> -->
+      <script src="./loadCarPage.js"></script>
+      
+      <title>My Favourite Cars</title>
+    </head>
+
+    <body>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-custom">
+          <div class="container-fluid">
+
+            <a class="navbar-brand link" href="./index.html" id="index">Cars</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+
+                <!-- <li class="nav-item">
+                  <a class="nav-link link" href="./index.html" id="company@porsche">Porsche</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link" href="./index.html" id="company@mercedes-benz">Mercedes-Benz</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link" href="./index.html" id="company@bmw">BMW</a>
+                </li> -->
+
+                <li class="nav-item dropdown">
+
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Browse By Cars
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item link" href="./carPage.html" id="356-c">Porsche 356</a></li>
+                    <li><a class="dropdown-item link" href="./carPage.html" id="911-turbo-(930)">Porsche 911 Turbo (930)</a></li>
+                    <li><a class="dropdown-item link" href="./carPage.html" id="718-cayman-s">Porsche 718 Cayman S</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item link" href="./carPage.html" id="300-sl">Mercedes-Benz 300 SL</a></li>
+                  </ul>
+
+                </li>
+                
+              </ul>
+
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+
+            </div>
+          </div>
+      </nav>
+
+        <!--main page-->
+        <div class="container-fluid">
+          <div class="row">
+            <!--left side gap-->
+            <div class="col-md-1">
+            </div>
+
+            <!--content-->
+            <div class="col-md-10">
+              <!--div for scrolling-->
+              <div class="carRenderDivParent">
+
+                <!--car render goes here-->
+                <div class="carRenderDiv">
+                  <!--create image tag for renders-->
+                </div>
+              </div>
+
+              <!--car details go here-->
+              <div class="carDetailsDiv">
+                <table class="table table-borderless table-dark"></table>
+              </div>
+            </div>
+
+            <!--right side gap-->
+            <div class="col-md-1">  
+            </div>
+          </div>
+        </div>
+
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
