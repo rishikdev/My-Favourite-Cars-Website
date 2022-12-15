@@ -4,6 +4,9 @@ var cacheImage = [];
 $(document).ready(function()
 {
     $(document).scrollTop(0);
+    
+    $("body").css("background-color", "black");
+    $(".navbar-custom").css("background-color", "black");
 
     let carName = window.location.search;
 

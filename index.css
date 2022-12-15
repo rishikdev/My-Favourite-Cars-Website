@@ -1,24 +1,7 @@
 body
 {
-    /* background-image: linear-gradient(black, black, rgb(59, 21, 21), rgb(59, 21, 21), black, black); */
-    background-color: black;
-
+    background: #6a7381;
     color: white;
-    /* height: 1000vh; */
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    background-size: cover;
-}
-
-.indexBody
-{
-    /* height: 100vh; */
-    background-image: linear-gradient(black, black, rgb(59, 21, 21), rgb(59, 21, 21), black, black);
-    color: white;
-
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -28,7 +11,7 @@ body
 
 .navbar-custom
 {
-    background-color: black;
+    background-color: #515863;
 }
 
 /* change the brand and text color */
@@ -58,28 +41,19 @@ h1, h3, h5
 
 .carRenderDivParent
 {
-    /* position: relative; */
-    height: 450vh; /*400vh*/
-    /* background-color: wheat; */
+    height: 450vh;
 }
 
 .carVideoTag
 {
     border-radius: 10px;
-    /* position: relative; */
-    /* position: sticky; */
-    /* height: 100%; */
     width: 100%;
-    /* margin-top: 10%;
-    margin-left: 10%;
-    margin-left: 10%; */
     left: -1%;
     top: 0;
     -webkit-user-select: none;  
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    /* border: 2px solid white; */
 }
 
 .carRenderDiv
@@ -96,13 +70,8 @@ h1, h3, h5
 .renderImgTag
 {
     border-radius: 10px;
-    /* position: relative; */
-    /* position: sticky; */
     height: 100%;
     width: 100%;
-    /* margin-top: 10%;
-    margin-left: 10%;
-    margin-left: 10%; */
     left: -1%;
     top: 0;
     -webkit-user-select: none;  
@@ -116,33 +85,30 @@ h1, h3, h5
     top: 50px;
     margin-top: 50px;
     justify-content: center;
-    /* background-color: yellow; */
 }
 
 .clickableCarImageOuterDiv
 {
-    /* background-color: white; */
     margin-top: 20px;
-    /* top: 20px; */
     position: sticky;
 }
 
 .card
 {
-    /* height: ; */
     width: 400px;
     position: sticky;
     margin: 6%;
     margin-top: 6%;
-    background-color: black;
-    padding: 1%;
-    border-radius: 10px;
-    border: 2px solid white;
+    padding: 0.25%;
+
+    border-radius: 2px;
+    background: #6a7381;
+    box-shadow:  5px 5px 15px #5a626e,
+                -5px -5px 15px #7a8494;
 }
 
 .changeBorderColour
 {
-    /* height: ; */
     width: 400px;
     position: sticky;
     margin: 6%;
@@ -178,13 +144,11 @@ a
 th
 {
     text-align: left;
-    /* font-family: cursive, Georgia, 'Times New Roman', Times, serif; */
 }
 
 td
 {
     text-align: right;
-    /* font-family: cursive, Georgia, 'Times New Roman', Times, serif; */
 }
 
 .carDescriptionDiv
@@ -195,7 +159,6 @@ td
     border-radius: 20px;
     padding: 5%;
     text-align: justify;
-    /* font-family: cursive, Georgia, 'Times New Roman', Times, serif; */
 }
 
 .noDetailsFoundDiv
@@ -206,5 +169,4 @@ td
     border-radius: 20px;
     padding: 5%;
     text-align: justify;
-    /* font-family: cursive, Georgia, 'Times New Roman', Times, serif; */
 }
