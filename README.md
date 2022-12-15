@@ -11,7 +11,7 @@ A website developed using the following technologies:
 
 All the 3D renders of the car models were done using Blender.
 
-https://favouritecars97.000webhostapp.com/
+https://myfavouritecars97.000webhostapp.com/
 
 I have updated the homepage to look more inline with the current theme of neomorphism (achieved using CSS).
 
